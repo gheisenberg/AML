@@ -1,5 +1,5 @@
 import pandas as pd 
-# Makes sure we see all columns
+# Makes sure you see all columns
 pd.set_option('display.max_columns', None)
 from sklearn.model_selection import train_test_split
 from imblearn.over_sampling import RandomOverSampler
