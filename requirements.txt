@@ -1,0 +1,28 @@
+# Notebook environment
+jupyterlab>=4.2
+ipykernel>=6.29
+
+# Core data analysis and visualisation
+numpy>=1.26,<3
+pandas>=2.1
+matplotlib>=3.8
+seaborn>=0.13
+
+# Classical machine learning and explainability
+scikit-learn>=1.3
+xgboost>=2.0
+shap>=0.45
+rrcf>=0.4.4
+
+# Deep learning and computer vision
+# Install a CUDA-specific PyTorch build separately when GPU acceleration is required:
+# https://pytorch.org/get-started/locally/
+torch>=2.2
+torchvision>=0.17
+pillow>=10.0
+opencv-python>=4.8
+scikit-image>=0.22
+tqdm>=4.66
+
+# Reinforcement learning
+gymnasium[toy-text]>=0.29
